@@ -1,0 +1,94 @@
+.section3 {
+    display: flex;
+    align-items: center;
+    height: 65rem;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00102D 10%, #0059FC 90%);
+    color: var(--white);
+}
+
+.dimen {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.infor {
+    width: 50rem;
+}
+
+.custom_list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 5rem;
+}
+
+.custom_list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.custom_list li:hover .icon{
+    color: green;
+}
+
+.icon {
+    color: var(--white);
+    margin-right: 1rem;
+    font-size: 4rem;
+}
+
+
+.image{
+    display: flex;
+    height: 50rem;
+    width: 50rem;
+    margin-left: 10rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 50%;
+}
+
+.image img{
+    display: flex;
+    transition: .3s;
+}
+
+.image img:hover{
+    transform: scale(1.08);
+    filter: drop-shadow(0 4px 8px rgba(254, 255, 255, 0.5));
+}
+
+.button_chat{
+    text-decoration: none;
+}
+
+.button_chat button{
+  padding: 2rem;
+  border: none;
+  border-radius: 35px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.button_chat .icon_2{
+    justify-content: center;
+    font-size: 3rem;
+    margin-right: 1rem;
+}

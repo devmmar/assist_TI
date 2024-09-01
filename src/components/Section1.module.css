@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+    align-items: end;
+    background-image: url(../images/banner01.jfif);
+    height: 650px;
+    z-index: -1;
+}
+
+.infor{
+    display: flex;
+    justify-content: space-between;
+    height: 518.97px;
+}
+
+.text .p{
+    font-size: 5rem;
+    color: var(--white);
+}
+
+.persona1 .img{
+    width: 54rem;
+    overflow: hidden;
+}
